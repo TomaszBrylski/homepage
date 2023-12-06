@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomasz Brylski</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/container.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/article.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/tableContainer.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/script.js"></script>
+  </head>
+
+  <body class="body">
+    <div class="container">
+      <nav>
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#history">Histria Kawy</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#description">Opis</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#table">Tabela</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#wiki">Źródło</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#interaction"
+              >Przykładowa interakcja</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <article class="article">
+          <header>
+            <h1 class="article__header">Tomasz Brylski</h1>
+          </header>
+          <img
+            class="article__image"
+            width="150"
+            height="150"
+            src="images/tomasz.jpg"
+            alt="Tomasz Brylski"
+          />
+
+          <p class="article__paragraph article__paragraph--highlighted">
+            Jestem twórcą, ponieważ każdego dnia mam sznasę stworzyć coś nowego
+            od początku, każdy z nas ma taką sznasę i to tylko od nas zależy co
+            z tym zrobimy, jak wykorzystamy dany nam czas. Większość ludzi tylko
+            siedzi i narzeka nie zwracają uwagi jak okazje przemykają im koło
+            nosa. A ja taką szansę dostrzegłemi, jest to YOUCODE coś z czym
+            wcześniej nie miałem do czynienia, nowe możliwości i rozwój.
+          </p>
+          <p class="article__paragraph">
+            Dzięki współpracy, wiedzy i doświadczeniu jakie otrzymuję mogę
+            zobaczyć, dowiedzieć się jak wygląda świat internetu od wewnątrz,
+            jakie procesy zachodzą aby stworzyć coś tak fascynującego.
+          </p>
+        </article>
+
+        <article class="article article--dark">
+          <h2 class="article__header" id="history">Historia kawy</h2>
+          <p class="article__paragraph">
+            Odkrycie kawy - Owoce kawowca wykorzystywane były w Etiopii już w I
+            tysiącleciu p.n.e. Spożywano je gotowane z dodatkiem masła i soli,
+            lecz nie uprawiano, tylko zbierano ze stanowisk naturalnych.
+            Prawdopodobnie kawę odkrył lud Oromo, zamieszkujący etiopski region
+            Kaffa. Przypuszczalnie w XIII lub XIV wieku przywiezione zostały
+            przez kupców arabskich do Jemenu, który do dziś dostarcza najdroższą
+            kawę. Prawdopodobnie tam opracowano metodę preparowania nasion przez
+            prażenie i wytwarzanie z nich napoju, który Beduini rozpowszechnili
+            w całej Arabii. Z odkryciem kawy wiążą się dwie legendy. Pierwsza
+            przypisuje związane z tym zasługi sufiemu Szejchowi asz-Szadhiliemu.
+            Miał on w czasie swojej wędrówki po Afryce przypadkiem natrafić na
+            stado wyjątkowo pobudzonych kóz. Z ciekawości spróbował zjadanych
+            przez nie owoców, poznając ich niezwykły wpływ na organizm
+            człowieka. Druga, bardzo podobna historia jako odkrywcę podaje
+            etiopskiego pasterza o imieniu Kaldi.
+          </p>
+          <h2 class="article__header" id="description">Opis</h2>
+          <p class="article__paragraph article__paragraph--highlighted">
+            Kawa - napój sporządzany z palonych, a następnie zmielonych lub
+            poddanych instantyzacji ziaren kawowca, zwykle podawany na gorąco.
+            Pochodzi z Etiopii, w Europie pojawiła się około XVI wieku. Jedna z
+            najpopularniejszych używek na świecie i główne źródło kofeiny.
+          </p>
+        </article>
+        <div class="tableContainer" id="table">
+          <table class="table">
+            <caption class="table__caption">
+              Dane ekonomiczne
+            </caption>
+            <tr class="table__cell" scope="col" colspan="2">
+              <th>Najwięksi producenci kawy</th>
+              <td>(w mln ton)</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Brazylia
+              </th>
+              <td class="table__cell">2,68</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Wietnam
+              </th>
+              <td class="table__cell">1,54</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Kolumbia</th>
+              <td class="table__cell">0,75</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Indonezja
+              </th>
+              <td class="table__cell">0,67</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Hunduras
+              </th>
+              <td class="table__cell">0,48</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Etiopia
+              </th>
+              <td class="table__cell table__row">0,47</td>
+            </tr>
+            <tr>
+              <th class="table__row" scope="row">Łącznie na świecie</th>
+              <td class="table__cell table__row">6,59</td>
+            </tr>
+          </table>
+        </div>
+        <h3 class="article__header" id="interaction">Przykładowa interakcja</h3>
+        <p class="article__paragraph">
+          <button class="article__button js-changeBackground">
+            Włącz <span class="js-themeName">ciemny</span> motyw
+          </button>
+        </p>
+      </main>
+
+      <footer class="footer" id="wiki">
+        Informacje pobrano z tego
+        <a
+          rel="noreferrer noopener"
+          target="_blank"
+          href="https://pl.wikipedia.org/wiki/Kawa"
+          title="wikipedia"
+        >
+          źródła
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

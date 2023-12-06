@@ -1,0 +1,52 @@
+.article {
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #ccc;
+  margin: 20px auto;
+}
+
+.article--dark {
+  background: #444;
+}
+
+.article__header {
+  color: teal;
+  text-align: center;
+}
+
+.article__paragraph {
+  color: #777;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.article--dark .article__paragraph {
+  color: #999;
+}
+
+.article__paragraph--highlighted {
+  color: rgb(0, 147, 147);
+}
+
+.article__image {
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px #ccc;
+  margin: 20px auto;
+  padding: 5px;
+  text-align: center;
+  display: block;
+}
+
+.article__button {
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+font-size: 15px;
+}
+
+.article__button:hover {
+  background-color: hsl(180, 100%, 31%);
+}

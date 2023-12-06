@@ -1,4 +1,4 @@
-console.log("Dzień Dobry Wszystkim");
+console.log("Dzień Dobry Wszystkim ten kod jest już w repozytorium Git.");
 
 let changeBackground = document.querySelector(".js-changeBackground");
 let body = document.querySelector(".body");

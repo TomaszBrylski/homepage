@@ -1,13 +1,22 @@
-console.log("Dzień Dobry Wszystkim ten kod jest już w repozytorium Git.");
+{
+  const welcome = () => {
+    console.log("Dzień Dobry Wszystkim ten kod jest już w repozytorium Git.");
+  };
 
-let changeBackground = document.querySelector(".js-changeBackground");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".js-themeName");
+  const toggleBackground = () => {
+    const body = document.querySelector(".js-body");
+    const themeName = document.querySelector(".js-themeName");
 
-changeBackground.addEventListener("click", () => {
-  body.classList.toggle("body--dark");
+    body.classList.toggle("body--dark");
+    themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+  };
 
-  themeName.innerText = body.classList.contains("body--dark")
-    ? "jasny"
-    : "ciemny";
-});
+  const init = () => {
+    const changeBackground = document.querySelector(".js-changeBackground");
+    changeBackground.addEventListener("click", toggleBackground);
+
+    welcome();
+  };
+
+  init();
+}

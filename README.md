@@ -1,6 +1,6 @@
 # Tomasz Brylski - my website
 
-![Tomasz](images/tomasz.jpg)
+![Tomasz](images/myWebsite.gif)
 
 ## Website
 

@@ -21,12 +21,15 @@
 .table__cell--header {
   background-color: rgb(1, 150, 150);
   font-weight: normal;
+  transition: 1s;
 }
 
 .table__cell--header:hover {
   background-color: hsl(180, 100%, 20%);
+  transition: 1s;
 }
 
 .table__row:hover {
   background-color: hsl(180, 100%, 20%);
+  transition: 1s;
 }

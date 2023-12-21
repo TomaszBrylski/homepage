@@ -44,9 +44,11 @@
   text-align: center;
   border: none;
   cursor: pointer;
-font-size: 15px;
+  font-size: 15px;
+  transition: 1s;
 }
 
 .article__button:hover {
   background-color: hsl(180, 100%, 31%);
+  transform: scale(110%);
 }
